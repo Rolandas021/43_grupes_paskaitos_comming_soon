@@ -1,2 +1,34 @@
 @import '../base/base.css';
 @import '../base/layout.css';
+
+.hero {
+    height: 100vh;
+    background-image: url(../../img/background.png);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero > .short-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.hero .logo {
+    height: 80px;
+}
+
+.hero .title {
+    font-size: 80px;
+}
+
+@media(max-width: 600px) {
+    .hero .title {
+        font-size: 64px;
+    }
+}

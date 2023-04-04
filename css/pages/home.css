@@ -1,0 +1,126 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+/* components */
+@import '../components/header.css';
+@import '../components/footer.css';
+/* CUSTOM STYLE */
+
+.bg-hero {
+    width: 100%;
+    background-color: #74C69D;
+}
+
+h4 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 125%;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-container > p {
+    line-height: 125%;
+    color: #212529bf;
+    padding-top: 2em;
+}
+
+.left-col > h2, .left-col > h1 {
+    color: #ffffff;
+}
+
+.left-col > p {
+    color: #ffffffbf;
+}
+
+.col > p, .col > h1 {
+    color: #000000;
+}
+
+.col > h2 {
+    color: #74C69D;
+}
+
+.col > p {
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.btn {
+    display: inline-block;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin: 25px 0;
+    border-radius: 5px;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+}
+
+.btn-dark {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@media (max-width: 1120px) {
+    .partners-logo-section .sites {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-topics, .content > .section1{
+        width: 335px;
+    }
+
+    .hero .pic-friends{
+        width: 335px;
+        height: 196.61px;
+    }
+
+    .hero-topics > .topic2{
+        font-size: 28px;
+    }
+
+    .section1 > .name2{
+        font-size: 24px;
+    }
+}
